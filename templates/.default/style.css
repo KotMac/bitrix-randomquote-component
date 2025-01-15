@@ -1,0 +1,19 @@
+.random-quote {
+    border-left: 4px solid #007bff;
+    padding: 10px;
+    margin: 20px 0;
+    background-color: #f9f9f9;
+}
+
+.random-quote blockquote {
+    font-style: italic;
+    color: #333;
+}
+
+.random-quote__author {
+    text-align: right;
+    font-weight: lighter;
+}
+.random-quote__author::before {
+    content: '- ';
+}
